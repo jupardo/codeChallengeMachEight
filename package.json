@@ -1,0 +1,19 @@
+{
+  "name": "matchEightChallenge",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "jupardo <jd.pardo@uniandes.edu.co>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0"
+  },
+  "scripts": {
+    "runHash": "node ./index.js hash",
+    "runBinary": "node ./index.js binary",
+    "test": "jest",
+    "benchmark": "node ./benchmark.js"
+  }
+}
